@@ -1,18 +1,14 @@
-# App
+# Elixir ping pong game
+A sample elixir app build to simulate communication between processes
 
-**TODO: Add description**
+# Usage
+```
+App.Table.start
+```
 
-## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `app` to your list of dependencies in `mix.exs`:
-
-```elixir
-def deps do
-  [
-    {:app, "~> 0.1.0"}
-  ]
-end
+# Tests
+```
+mix test
 ```
 
 Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
